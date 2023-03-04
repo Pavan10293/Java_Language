@@ -35,4 +35,14 @@ public class MethodOverloading_Challenge {
         System.out.println(inches + " inches is equal to " + feet + " feet and " + remainingInches + " inches");
         return calcFeetAndInchesToCentimeters(feet, remainingInches);
     }
+
+    public static void calcFeetAndInchesToCentimeters(int feet, double inches, boolean bool) {
+
+    }
+
+    //Method overloading can also be done by specifying a different order for the parameters. Refer the above and below methods.
+
+    public static void calcFeetAndInchesToCentimeters(double inches, int feet, boolean bool) {
+
+    }
 }
