@@ -38,8 +38,8 @@ public class FloatAndDouble {
         System.out.println("My float value / 3 = "+myFloatValue3);
         System.out.println("My Double value / 3 = "+myDoubleValue3);
 
-        //float floatNum = 2.25; Compiler shows error here as the default floating point data type in java is double.
-        float floatNum = 2.25f;
+//        float floatNum = 2.25;// Compiler shows error here as the default floating point data type in java is double.
+        float floatNum2 = 2.25f;
 
         //CHALLENGE
 

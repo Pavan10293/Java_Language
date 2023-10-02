@@ -39,9 +39,9 @@ public class ByteShortIntLong {
         System.out.println("Long minimum value = " + myMinLongValue);
         System.out.println("Long maximum value = " + myMaxLongValue);
 
-        //long bigLongLiteralValue = 2_147_483_6479; Compiler throws error as the Default whole number in Java is an integer and the given no. exceeds the max value of integer.
-        long bigLongLiteralValue = 2_147_483_6479L; //"L" is required at the end to instruct the compiler that the value should be considered as a Long data type.
-        System.out.println(bigLongLiteralValue);
+//        long bigLongLiteralValue = 21474836479; //Compiler throws error as the Default whole number in Java is an integer and the given no. exceeds the max value of integer.
+        long bigLongLiteralValue2 = 2_147_483_6479L; //"L" is required at the end to instruct the compiler that the value should be considered as a Long data type.
+        System.out.println(bigLongLiteralValue2);
     }
 
 }
