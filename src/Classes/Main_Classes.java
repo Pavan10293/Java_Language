@@ -33,5 +33,8 @@ public class Main_Classes {
 
         Account timsAccount = new Account("Tim", "tim@email.com", "12345");
         System.out.println(timsAccount.getNumber());
+
+        Account emptyConstructor = new Account();
+        System.out.println("Empty constructor customer name :- "+emptyConstructor.getCustomerName());
     }
 }

@@ -17,7 +17,7 @@ public class Account {
         this.customerPhoneNumber = customerPhoneNumber;
     }
     public Account() {
-        this("23423", 250, "Default Name", "Default Address", "Default number");
+//        this("23423", 250, "Default Name", "Default Address", "Default number");
         System.out.println("Empty constructor called.");
 //        this("23423", 250, "Default Name", "Default Address", "Default number"); //This will throw compile error as this call should be the first line in the overloaded constructor.
     }
