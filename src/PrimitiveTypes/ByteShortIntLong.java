@@ -9,8 +9,12 @@ public class ByteShortIntLong {
         int myMaxIntValue = Integer.MAX_VALUE;
         System.out.println("Integer minimum value = " + myMinIntValue);
         System.out.println("Integer maximum value = " + myMaxIntValue);
-        System.out.println("Busted Max value = " + (myMaxIntValue + 1)); //Integer's max value plus 1 doesn't fit into an int datatype. So, it overflows
-        System.out.println("Busted Min value = " + (myMinIntValue - 1)); //Integer's min value minus 1 doesn't fit into an int datatype. So, it underflows
+        int bustedMaxValue = myMaxIntValue + 1;
+        int bustedMinValue = myMinIntValue - 1;
+        System.out.println("Busted Max value = " + (bustedMaxValue)); //Integer's max value plus 1 doesn't fit into an int datatype. So, it overflows
+        System.out.println("Busted Min value = " + (bustedMinValue)); //Integer's min value minus 1 doesn't fit into an int datatype. So, it underflows
+        System.out.println(bustedMaxValue==myMinIntValue);
+        System.out.println(bustedMinValue==myMaxIntValue);
 
         int myMaxIntTest = 2147483647;
         int myMaxIntTest2 = 2_147_483_647; //Underscores can be used to make it more readable.
