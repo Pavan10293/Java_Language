@@ -13,6 +13,8 @@ public class Stack_Learn {
         animals.push("Horse");
         animals.push("Cat");
 
+        System.out.println("Initial capacity :- " + animals.capacity());
+
         System.out.println(animals);
 
         System.out.println(animals.peek());

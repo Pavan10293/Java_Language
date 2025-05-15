@@ -12,28 +12,30 @@ public class ArrayList_Learn {
         list.add(3);
 
         list.add(4);
-        System.out.println(list);
+//        System.out.println(list);
 
         list.add(1, 50);
-        System.out.println(list);
+//        System.out.println(list);
 
         List<Integer> newList = new ArrayList<>();
         newList.add(150);
         newList.add(160);
 
         list.addAll(newList);
-        System.out.println(newList);
-        System.out.println("Is Empty :- "+list.isEmpty());
-        System.out.println("List size : "+list.size());
+//        System.out.println(list);
+//        System.out.println("Is Empty :- "+list.isEmpty());
+//        System.out.println("List size : "+list.size());
 
         //Get operations
-        System.out.println("Element at 3rd position :- "+list.get(3));
-        System.out.println("Remove operation : "+newList.remove(1));
-        System.out.println("New list after removing an element :- "+newList);
+//        System.out.println("Element at 3rd position :- "+list.get(3));
+//        System.out.println("Remove operation : "+newList.remove(1));
+//        System.out.println("New list after removing an element :- "+newList);
 
         ArrayList<String> studentNames = new ArrayList<>();
 
         studentNames.add("Rakesh");
+
+//        System.out.println("Student Names :- "+studentNames);
 
         List<Integer> numbersList = new ArrayList<>();
         numbersList.add(10);
@@ -46,13 +48,18 @@ public class ArrayList_Learn {
         numbersList.add(80);
 
         System.out.println(numbersList);
+
+        System.out.println("Removing an element at index : "+numbersList.remove(3));
+        System.out.println(numbersList);
+
+        System.out.println("Removing an element at index : "+numbersList.remove(Integer.valueOf(50)));;
+        System.out.println(numbersList);
 //
-//        System.out.println("Removing an element at index : "+numbersList.remove(3));
-//        System.out.println(numbersList);
-//
-//        System.out.println("Removing an element at index : "+numbersList.remove(Integer.valueOf(51)));;
-//        System.out.println(numbersList);
-//
+        numbersList.set(2, 330);
+        System.out.println(numbersList);
+        System.out.println("Size :- "+numbersList.size());
+
+        System.out.println(numbersList.contains(32));
 //        numbersList.clear();
 //        System.out.println(numbersList);
 
@@ -63,7 +70,7 @@ public class ArrayList_Learn {
 
         //Iterating through the lists
 
-        for (int i = 0; i< list.size(); i++){
+        for (int i = 0; i< numbersList.size(); i++){
             System.out.println("The element is :- " +numbersList.get(i));
         }
 
@@ -71,10 +78,10 @@ public class ArrayList_Learn {
             System.out.println("For each element is :- "+element);
         }
 
-        Iterator<Integer> iterator = numbersList.iterator();
+        Iterator<Integer> it = numbersList.iterator();
 
-        while(iterator.hasNext()) {
-            System.out.println("Iterator each element : "+iterator.next());
+        while(it.hasNext()) {
+            System.out.println("Iterator each element : "+it.next());
         }
     }
 

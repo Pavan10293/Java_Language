@@ -17,6 +17,11 @@ public class LearnPriorityQueue {
 
         System.out.println(pq);
 
+        System.out.println(pq.poll());
+        System.out.println(pq);
+
+        System.out.println(pq.peek());
+
         while(!pq.isEmpty()) {
             System.out.println(pq.poll());
         }
