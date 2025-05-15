@@ -2,7 +2,7 @@ package LeetCode_Problems.Math;
 
 //Given an integer x, return true if x is a palindrome, and false otherwise.
 
-public class IsNumberPalindrome {
+public class IsNumberPalindrome_9 {
 
     public static boolean isPalindrome(int x) {
         if(x>0) {
