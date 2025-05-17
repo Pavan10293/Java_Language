@@ -11,8 +11,8 @@ public class LearnArraysClass {
 
 //        System.out.println("The index of element 4 in the array is :"+binarySearchedIndex(4));
 //        System.out.println("The index of element 7 in the array is :"+binarySearchedIndex(7));
-//        sortArray();
-        fillArray();
+        sortArray();
+//        fillArray();
     }
 
 
@@ -24,6 +24,7 @@ public class LearnArraysClass {
     private static void sortArray() {
         int[] numbers = {16, 2, 43, 24, 5, 36, 97, 8, 999, 10};
         System.out.println(Arrays.toString(numbers));
+        System.out.println(numbers); //This prints the object reference hashcode instead of the values of the array.
         Arrays.sort(numbers);
         System.out.println(Arrays.toString(numbers));
     }

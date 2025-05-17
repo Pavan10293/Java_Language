@@ -35,6 +35,5 @@ public class LearnLinkedHashSet {
 
         System.out.println("Is Empty after cleared? "+set.isEmpty());
 
-
     }
 }

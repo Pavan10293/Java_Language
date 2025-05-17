@@ -2,9 +2,18 @@ package Collections.Set;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student> {
 
     String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getRollNo() {
+        return rollNo;
+    }
+
     int rollNo;
 
     public Student(String name, int rollNo){
@@ -27,5 +36,16 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hashCode(rollNo);
+    }
+
+
+//    @Override
+//    public int compareTo(Student o) {
+//        return this.rollNo - o.rollNo;
+//    }
+
+    @Override
+    public int compareTo(Student o) {
+        return this.name.compareTo(o.name);
     }
 }
