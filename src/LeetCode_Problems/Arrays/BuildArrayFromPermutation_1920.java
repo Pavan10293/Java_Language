@@ -34,13 +34,13 @@ public class BuildArrayFromPermutation_1920 {
     }
 
     public static int[] buildArrayWithoutNewArrayCreation(int[] nums) {
-        int n = nums.length;
-        for (int i = 0; i < n; i++) {
-            nums[i] += (nums[nums[i]] % n) * n;
+        int arrayLength = nums.length;
+        for (int i = 0; i < arrayLength; i++) {
+            nums[i] += (nums[nums[i]] % arrayLength) * arrayLength;
         }
 
-        for (int i = 0; i < n; i++) {
-            nums[i] /= n;
+        for (int i = 0; i < arrayLength; i++) {
+            nums[i] /= arrayLength;
         }
         return nums;
     }
