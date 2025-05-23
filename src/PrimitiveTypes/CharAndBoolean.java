@@ -12,6 +12,9 @@ public class CharAndBoolean {
         System.out.println('⓵');
         System.out.println('\u24F5');
 
+
+        System.out.println("Capital U :" +'\u0075');
+        System.out.println("Peace Symbol :- "+'\u262E'); //peace symbol
         //Boolean
 
         boolean myTrueBooleanVariable = true;

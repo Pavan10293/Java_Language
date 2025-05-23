@@ -11,15 +11,15 @@ public class ByteShortIntLong {
         System.out.println("Integer maximum value = " + myMaxIntValue);
         int bustedMaxValue = myMaxIntValue + 1;
         int bustedMinValue = myMinIntValue - 1;
-        System.out.println("Busted Max value = " + (bustedMaxValue)); //Integer's max value plus 1 doesn't fit into an int datatype. So, it overflows
         System.out.println("Busted Min value = " + (bustedMinValue)); //Integer's min value minus 1 doesn't fit into an int datatype. So, it underflows
+        System.out.println("Busted Max value = " + (bustedMaxValue)); //Integer's max value plus 1 doesn't fit into an int datatype. So, it overflows
         System.out.println(bustedMaxValue==myMinIntValue);
         System.out.println(bustedMinValue==myMaxIntValue);
 
         int myMaxIntTest = 2147483647;
         int myMaxIntTest2 = 2_147_483_647; //Underscores can be used to make it more readable.
         System.out.println(myMaxIntTest+" " +myMaxIntTest2);
-        //int myMaxIntTest = 2147483648; Compiler flags off an error as the range of int datatype exceeds
+   //     int myMaxIntTest3 = 2147483647; //Compiler flags off an error as the range of int datatype exceeds
 
         //BYTE
 
