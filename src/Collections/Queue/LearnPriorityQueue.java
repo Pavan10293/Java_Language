@@ -14,6 +14,7 @@ public class LearnPriorityQueue {
         pq.offer(12);
         pq.offer(24);
         pq.offer(36);
+//        pq.offer(null); Does not permit null elements.
 
         System.out.println(pq);
 

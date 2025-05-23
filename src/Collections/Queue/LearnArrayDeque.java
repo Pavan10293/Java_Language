@@ -13,6 +13,7 @@ public class LearnArrayDeque {
         adq.offerFirst(12);
         adq.offerLast(45);
         adq.offer(26);
+//        adq.offer(null);
 
          System.out.println(adq);
 

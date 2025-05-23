@@ -14,8 +14,14 @@ public class LearnHashSet {
         set.add(54);
         set.add(21);
         set.add(65);
+        set.add(null);
+        set.add(null);
 
-//        System.out.println(set);
+        System.out.println(set);
+
+//        for(Integer eachElement : set) {
+//            System.out.println(eachElement.hashCode()); //Throws NullPointerException when trying to print the null value present in the set.
+//        }
 
         set.add(54);
         set.add(54);

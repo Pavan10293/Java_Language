@@ -10,12 +10,14 @@ public class LinkedList_Learn {
 
     public static void main(String[] args) {
 
-        Deque<Integer> queue = new LinkedList<Integer>();
+        LinkedList<Integer> queue = new LinkedList<Integer>();
 
         queue.offer(12);
         queue.offer(24);
         queue.offer(36);
 
+        queue.addFirst(null);
+        queue.addLast(null);
         queue.offerFirst(16);
         queue.offerLast(25);
 

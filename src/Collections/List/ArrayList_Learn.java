@@ -10,12 +10,14 @@ public class ArrayList_Learn {
         list.add(1);
         list.add(2);
         list.add(3);
-
+        list.add(null);
+        list.add(null);
         list.add(4);
-//        System.out.println(list);
+        System.out.println("Initial list :- "+list);
 
         list.add(1, 50);
-//        System.out.println(list);
+        System.out.println(list);
+
 
         List<Integer> newList = new ArrayList<>();
         newList.add(150);
