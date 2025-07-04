@@ -1,5 +1,6 @@
 package Collections.ArraysClass;
 
+import LeetCode_Problems.Collections.Lists.ListNode;
 import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 import java.sql.SQLOutput;
@@ -14,7 +15,6 @@ public class LearnArraysClass {
         sortArray();
 //        fillArray();
     }
-
 
     private static int binarySearchedIndex(int key) {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
